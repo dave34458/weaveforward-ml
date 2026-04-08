@@ -1,0 +1,198 @@
+{
+  "trained_at": "2026-04-08T10:08:32.743576",
+  "notebook": "fiber_recommendation_model.ipynb",
+  "task": "binary is_match classification (1=match, 0=no_match)",
+  "target": "is_match",
+  "fiber_match_threshold": 85.0,
+  "feature_cols": [
+    "pct_acrylic",
+    "pct_bamboo",
+    "pct_cashmere",
+    "pct_cotton",
+    "pct_linen",
+    "pct_lyocell",
+    "pct_modal",
+    "pct_nylon",
+    "pct_polyester",
+    "pct_rayon",
+    "pct_silk",
+    "pct_tencel",
+    "pct_viscose",
+    "pct_wool",
+    "pct_bio_lookup",
+    "fs_bio_share",
+    "biodeg_score",
+    "biodeg_target_fiber",
+    "artisan_min_biodeg",
+    "demand_index",
+    "weight_kg",
+    "latitude",
+    "longitude",
+    "distance_km",
+    "pct_target_fiber",
+    "artisan_max_dist_km",
+    "brand",
+    "clothing_type",
+    "source",
+    "most_dominant_fiber",
+    "dominant_fiber_lookup",
+    "matched_fiber",
+    "biodeg_tier",
+    "ncr_city",
+    "barangay",
+    "artisan_id",
+    "artisan_target_fibers_str"
+  ],
+  "cat_features": [
+    "brand",
+    "clothing_type",
+    "source",
+    "most_dominant_fiber",
+    "dominant_fiber_lookup",
+    "matched_fiber",
+    "biodeg_tier",
+    "ncr_city",
+    "barangay",
+    "artisan_id",
+    "artisan_target_fibers_str"
+  ],
+  "fiber_vocab": [
+    "acrylic",
+    "bamboo",
+    "cashmere",
+    "cotton",
+    "linen",
+    "lyocell",
+    "modal",
+    "nylon",
+    "polyester",
+    "rayon",
+    "silk",
+    "tencel",
+    "viscose",
+    "wool"
+  ],
+  "fibers_of_interest": [
+    "acrylic",
+    "bamboo",
+    "cashmere",
+    "cotton",
+    "linen",
+    "lyocell",
+    "modal",
+    "nylon",
+    "polyester",
+    "rayon",
+    "silk",
+    "tencel",
+    "viscose",
+    "wool"
+  ],
+  "biodeg_scores": {
+    "cotton": 92,
+    "linen": 95,
+    "hemp": 96,
+    "denim": 78,
+    "tencel": 91,
+    "lyocell": 91,
+    "modal": 76,
+    "bamboo": 73,
+    "rayon": 72,
+    "viscose": 72,
+    "silk": 83,
+    "wool": 74,
+    "cashmere": 74,
+    "alpaca": 73,
+    "nylon": 12,
+    "polyester": 8,
+    "acrylic": 5,
+    "elastane": 4,
+    "spandex": 4,
+    "lycra": 4,
+    "unknown": 30
+  },
+  "artisan_registry": [
+    {
+      "artisan_id": "1",
+      "artisan_name": "Habi Weaves Ermita",
+      "target_fibers": [
+        "cotton",
+        "tencel"
+      ],
+      "min_biodeg_score": 60,
+      "max_distance_km": 12.0,
+      "latitude": 14.5904492,
+      "longitude": 120.9803621
+    },
+    {
+      "artisan_id": "2",
+      "artisan_name": "Diliman Fiber Collective",
+      "target_fibers": [
+        "tencel",
+        "viscose"
+      ],
+      "min_biodeg_score": 70,
+      "max_distance_km": 18.0,
+      "latitude": 14.6510546,
+      "longitude": 121.0486254
+    },
+    {
+      "artisan_id": "3",
+      "artisan_name": "Makati Upcycle Studio",
+      "target_fibers": [
+        "cotton",
+        "viscose",
+        "tencel"
+      ],
+      "min_biodeg_score": 55,
+      "max_distance_km": 10.0,
+      "latitude": 14.5567949,
+      "longitude": 121.0211226
+    },
+    {
+      "artisan_id": "4",
+      "artisan_name": "Pasig Natural Threads",
+      "target_fibers": [
+        "viscose",
+        "cotton"
+      ],
+      "min_biodeg_score": 50,
+      "max_distance_km": 15.0,
+      "latitude": 14.5605166,
+      "longitude": 121.0764343
+    },
+    {
+      "artisan_id": "5",
+      "artisan_name": "Marikina Heritage Weavers",
+      "target_fibers": [
+        "alpaca",
+        "cotton"
+      ],
+      "min_biodeg_score": 65,
+      "max_distance_km": 20.0,
+      "latitude": 14.6331084,
+      "longitude": 121.0993541
+    },
+    {
+      "artisan_id": "6",
+      "artisan_name": "Taguig EcoFabric Lab",
+      "target_fibers": [
+        "nylon",
+        "polyester"
+      ],
+      "min_biodeg_score": 30,
+      "max_distance_km": 14.0,
+      "latitude": 14.5270538,
+      "longitude": 121.0744942
+    }
+  ],
+  "best_params": {
+    "iterations": 384,
+    "depth": 4,
+    "learning_rate": 0.26119945983633946,
+    "l2_leaf_reg": 8.61701078115756,
+    "bagging_temperature": 0.2974396997640991,
+    "border_count": 139
+  },
+  "best_cv_f1": 0.9976544060247049
+}
