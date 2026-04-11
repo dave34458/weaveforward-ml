@@ -1,0 +1,450 @@
+{
+  "adored vintage": {
+    "brand": "adored vintage",
+    "fibers": {
+      "rayon": 15.7,
+      "wool": 15.7,
+      "cashmere": 15.7,
+      "cotton": 15.7,
+      "polyester": 10.2,
+      "acrylic": 6.6,
+      "nylon": 3.6,
+      "viscose": 12.2,
+      "elastane": 0.8,
+      "linen": 3.5
+    },
+    "bio_share": 78.74,
+    "biodeg_tier": "medium",
+    "item_count": 35,
+    "source": "international"
+  },
+  "apara studio": {
+    "brand": "apara studio",
+    "fibers": {
+      "cotton": 100.0
+    },
+    "bio_share": 100.0,
+    "biodeg_tier": "high",
+    "item_count": 15,
+    "source": "international"
+  },
+  "bench": {
+    "brand": "bench",
+    "fibers": {
+      "cotton": 36.8,
+      "linen": 3.8,
+      "polyester": 21.9,
+      "nylon": 32.4,
+      "elastane": 5.1
+    },
+    "bio_share": 40.6,
+    "biodeg_tier": "low",
+    "item_count": 22,
+    "source": "philippine"
+  },
+  "coastal bloom": {
+    "brand": "coastal bloom",
+    "fibers": {
+      "cotton": 17.9,
+      "polyester": 9.4,
+      "elastane": 0.9,
+      "rayon": 17.9,
+      "viscose": 13.2,
+      "modal": 9.4,
+      "tencel": 16.0,
+      "nylon": 5.7,
+      "lyocell": 9.4
+    },
+    "bio_share": 83.97,
+    "biodeg_tier": "medium",
+    "item_count": 112,
+    "source": "international"
+  },
+  "forme": {
+    "brand": "forme",
+    "fibers": {
+      "rayon": 19.2,
+      "nylon": 1.7,
+      "elastane": 1.4,
+      "cotton": 17.2,
+      "polyester": 11.5,
+      "viscose": 28.7,
+      "lyocell": 13.5,
+      "linen": 4.3,
+      "tencel": 2.6
+    },
+    "bio_share": 85.41,
+    "biodeg_tier": "high",
+    "item_count": 100,
+    "source": "philippine"
+  },
+  "frank and eileen": {
+    "brand": "frank and eileen",
+    "fibers": {
+      "cotton": 44.4,
+      "lyocell": 11.1,
+      "linen": 44.4
+    },
+    "bio_share": 100.0,
+    "biodeg_tier": "high",
+    "item_count": 41,
+    "source": "philippine"
+  },
+  "gq": {
+    "brand": "gq",
+    "fibers": {
+      "linen": 27.9,
+      "cotton": 27.9,
+      "wool": 27.9,
+      "polyester": 16.4
+    },
+    "bio_share": 83.62,
+    "biodeg_tier": "medium",
+    "item_count": 12,
+    "source": "philippine"
+  },
+  "gaui": {
+    "brand": "gaui",
+    "fibers": {
+      "polyester": 24.4,
+      "elastane": 1.3,
+      "rayon": 24.1,
+      "cotton": 24.6,
+      "linen": 25.6
+    },
+    "bio_share": 74.3,
+    "biodeg_tier": "medium",
+    "item_count": 90,
+    "source": "philippine"
+  },
+  "guess": {
+    "brand": "guess",
+    "fibers": {
+      "elastane": 1.3,
+      "cotton": 26.3,
+      "nylon": 13.4,
+      "polyester": 26.8,
+      "rayon": 20.9,
+      "viscose": 11.3
+    },
+    "bio_share": 58.5,
+    "biodeg_tier": "medium",
+    "item_count": 25,
+    "source": "philippine"
+  },
+  "gymshark": {
+    "brand": "gymshark",
+    "fibers": {
+      "nylon": 35.9,
+      "elastane": 4.5,
+      "polyester": 14.1,
+      "cotton": 45.5
+    },
+    "bio_share": 45.5,
+    "biodeg_tier": "low",
+    "item_count": 112,
+    "source": "international"
+  },
+  "just g": {
+    "brand": "just g",
+    "fibers": {
+      "polyester": 21.6,
+      "cotton": 21.6,
+      "linen": 2.2,
+      "viscose": 14.0,
+      "elastane": 1.1,
+      "nylon": 8.7,
+      "acrylic": 8.8,
+      "lyocell": 11.2,
+      "wool": 10.8
+    },
+    "bio_share": 59.8,
+    "biodeg_tier": "medium",
+    "item_count": 61,
+    "source": "philippine"
+  },
+  "levi's": {
+    "brand": "levi's",
+    "fibers": {
+      "cotton": 29.8,
+      "viscose": 17.1,
+      "linen": 3.0,
+      "elastane": 1.5,
+      "modal": 5.1,
+      "lyocell": 17.9,
+      "polyester": 5.1,
+      "tencel": 20.6
+    },
+    "bio_share": 93.41,
+    "biodeg_tier": "high",
+    "item_count": 106,
+    "source": "philippine"
+  },
+  "linya linya": {
+    "brand": "linya linya",
+    "fibers": {
+      "polyester": 62.5,
+      "cotton": 37.5
+    },
+    "bio_share": 37.5,
+    "biodeg_tier": "low",
+    "item_count": 12,
+    "source": "philippine"
+  },
+  "made by fade": {
+    "brand": "made by fade",
+    "fibers": {
+      "cotton": 83.1,
+      "polyester": 16.9
+    },
+    "bio_share": 83.1,
+    "biodeg_tier": "medium",
+    "item_count": 39,
+    "source": "philippine"
+  },
+  "memo": {
+    "brand": "memo",
+    "fibers": {
+      "cotton": 22.8,
+      "polyester": 12.9,
+      "viscose": 23.5,
+      "elastane": 0.7,
+      "linen": 6.6,
+      "rayon": 11.8,
+      "nylon": 12.3,
+      "acrylic": 9.4
+    },
+    "bio_share": 64.7,
+    "biodeg_tier": "medium",
+    "item_count": 78,
+    "source": "philippine"
+  },
+  "no emotions": {
+    "brand": "no emotions",
+    "fibers": {
+      "polyester": 15.4,
+      "wool": 7.9,
+      "cotton": 15.0,
+      "modal": 15.4,
+      "elastane": 0.6,
+      "linen": 15.4,
+      "bamboo": 14.8,
+      "silk": 5.4,
+      "viscose": 10.0
+    },
+    "bio_share": 83.98,
+    "biodeg_tier": "medium",
+    "item_count": 20,
+    "source": "philippine"
+  },
+  "noti but we": {
+    "brand": "noti but we",
+    "fibers": {
+      "polyester": 36.0,
+      "rayon": 11.5,
+      "elastane": 2.5,
+      "viscose": 50.0
+    },
+    "bio_share": 61.5,
+    "biodeg_tier": "medium",
+    "item_count": 4,
+    "source": "philippine"
+  },
+  "oxgn": {
+    "brand": "oxgn",
+    "fibers": {
+      "polyester": 18.8,
+      "cotton": 26.3,
+      "rayon": 15.4,
+      "elastane": 1.9,
+      "nylon": 37.6
+    },
+    "bio_share": 41.7,
+    "biodeg_tier": "low",
+    "item_count": 70,
+    "source": "philippine"
+  },
+  "old navy": {
+    "brand": "old navy",
+    "fibers": {
+      "cotton": 22.0,
+      "rayon": 16.3,
+      "nylon": 18.0,
+      "linen": 12.1,
+      "viscose": 9.9,
+      "elastane": 1.1,
+      "polyester": 12.4,
+      "modal": 8.1
+    },
+    "bio_share": 68.47,
+    "biodeg_tier": "medium",
+    "item_count": 111,
+    "source": "philippine"
+  },
+  "patton studio": {
+    "brand": "patton studio",
+    "fibers": {
+      "polyester": 33.8,
+      "rayon": 11.6,
+      "elastane": 2.0,
+      "cotton": 32.8,
+      "wool": 4.5,
+      "nylon": 15.2
+    },
+    "bio_share": 48.95,
+    "biodeg_tier": "low",
+    "item_count": 62,
+    "source": "philippine"
+  },
+  "phoebe philo": {
+    "brand": "phoebe philo",
+    "fibers": {
+      "cotton": 16.0,
+      "lyocell": 10.7,
+      "wool": 16.0,
+      "silk": 14.9,
+      "elastane": 1.1,
+      "viscose": 12.2,
+      "polyester": 10.4,
+      "cashmere": 2.6,
+      "linen": 16.0
+    },
+    "bio_share": 88.49,
+    "biodeg_tier": "high",
+    "item_count": 50,
+    "source": "international"
+  },
+  "princess polly": {
+    "brand": "princess polly",
+    "fibers": {
+      "cotton": 26.4,
+      "polyester": 43.0,
+      "elastane": 3.0,
+      "linen": 13.8,
+      "rayon": 13.8
+    },
+    "bio_share": 54.0,
+    "biodeg_tier": "medium",
+    "item_count": 9,
+    "source": "international"
+  },
+  "regatta": {
+    "brand": "regatta",
+    "fibers": {
+      "cotton": 27.2,
+      "elastane": 0.9,
+      "polyester": 11.2,
+      "viscose": 23.9,
+      "nylon": 6.9,
+      "linen": 9.0,
+      "rayon": 20.9
+    },
+    "bio_share": 81.0,
+    "biodeg_tier": "medium",
+    "item_count": 88,
+    "source": "philippine"
+  },
+  "rokman": {
+    "brand": "rokman",
+    "fibers": {
+      "cotton": 60.0,
+      "polyester": 40.0
+    },
+    "bio_share": 60.0,
+    "biodeg_tier": "medium",
+    "item_count": 5,
+    "source": "international"
+  },
+  "sola": {
+    "brand": "sola",
+    "fibers": {
+      "nylon": 43.1,
+      "elastane": 4.4,
+      "modal": 52.5
+    },
+    "bio_share": 52.5,
+    "biodeg_tier": "medium",
+    "item_count": 11,
+    "source": "philippine"
+  },
+  "tayo studio": {
+    "brand": "tayo studio",
+    "fibers": {
+      "cotton": 100.0
+    },
+    "bio_share": 100.0,
+    "biodeg_tier": "high",
+    "item_count": 1,
+    "source": "philippine"
+  },
+  "the big silence": {
+    "brand": "the big silence",
+    "fibers": {
+      "cotton": 100.0
+    },
+    "bio_share": 100.0,
+    "biodeg_tier": "high",
+    "item_count": 5,
+    "source": "philippine"
+  },
+  "the editor's market": {
+    "brand": "the editor's market",
+    "fibers": {
+      "viscose": 70.0,
+      "linen": 30.0
+    },
+    "bio_share": 100.0,
+    "biodeg_tier": "high",
+    "item_count": 1,
+    "source": "philippine"
+  },
+  "tropa store": {
+    "brand": "tropa store",
+    "fibers": {
+      "polyester": 19.4,
+      "elastane": 1.0,
+      "viscose": 19.4,
+      "linen": 20.4,
+      "cotton": 20.4,
+      "bamboo": 19.4
+    },
+    "bio_share": 79.6,
+    "biodeg_tier": "medium",
+    "item_count": 17,
+    "source": "philippine"
+  },
+  "undershirtguy": {
+    "brand": "undershirtguy",
+    "fibers": {
+      "rayon": 95.0,
+      "elastane": 5.0
+    },
+    "bio_share": 95.0,
+    "biodeg_tier": "high",
+    "item_count": 1,
+    "source": "international"
+  },
+  "urban outfitters": {
+    "brand": "urban outfitters",
+    "fibers": {
+      "cotton": 100.0
+    },
+    "bio_share": 100.0,
+    "biodeg_tier": "high",
+    "item_count": 1,
+    "source": "philippine"
+  },
+  "world balance": {
+    "brand": "world balance",
+    "fibers": {
+      "polyester": 33.3,
+      "elastane": 1.8,
+      "cotton": 33.9,
+      "nylon": 31.0
+    },
+    "bio_share": 33.9,
+    "biodeg_tier": "low",
+    "item_count": 45,
+    "source": "philippine"
+  }
+}
