@@ -1,5 +1,5 @@
 {
-  "trained_at": "2026-04-12T07:53:34.885621",
+  "trained_at": "2026-04-23T20:21:45.152492",
   "notebook": "fiber_recommendation_model.ipynb",
   "task": "binary is_match classification (1=match, 0=no_match)",
   "target": "is_match",
@@ -193,8 +193,8 @@
       ],
       "min_biodeg_score": 80,
       "max_distance_km": 10.0,
-      "latitude": 14.651348,
-      "longitude": 120.9724002
+      "latitude": 14.6513445,
+      "longitude": 120.9723835
     },
     {
       "artisan_id": "8",
@@ -712,8 +712,8 @@
       ],
       "min_biodeg_score": 96,
       "max_distance_km": 10.0,
-      "latitude": 14.651348,
-      "longitude": 120.9724002
+      "latitude": 14.6513445,
+      "longitude": 120.9723835
     },
     {
       "artisan_id": "51",
@@ -723,8 +723,8 @@
       ],
       "min_biodeg_score": 100,
       "max_distance_km": 10.0,
-      "latitude": 14.651348,
-      "longitude": 120.9724002
+      "latitude": 14.6513445,
+      "longitude": 120.9723835
     },
     {
       "artisan_id": "52",
@@ -734,8 +734,8 @@
       ],
       "min_biodeg_score": 110,
       "max_distance_km": 10.0,
-      "latitude": 14.651348,
-      "longitude": 120.9724002
+      "latitude": 14.6513445,
+      "longitude": 120.9723835
     },
     {
       "artisan_id": "53",
@@ -745,8 +745,8 @@
       ],
       "min_biodeg_score": 80,
       "max_distance_km": 9.3,
-      "latitude": 14.651348,
-      "longitude": 120.9724002
+      "latitude": 14.6513445,
+      "longitude": 120.9723835
     },
     {
       "artisan_id": "54",
@@ -756,8 +756,8 @@
       ],
       "min_biodeg_score": 80,
       "max_distance_km": 6.8,
-      "latitude": 14.651348,
-      "longitude": 120.9724002
+      "latitude": 14.6513445,
+      "longitude": 120.9723835
     },
     {
       "artisan_id": "55",
@@ -1416,12 +1416,12 @@
     }
   ],
   "best_params": {
-    "iterations": 644,
-    "depth": 10,
-    "learning_rate": 0.12309797334202444,
-    "l2_leaf_reg": 0.0809392802764513,
-    "bagging_temperature": 0.1629527954885691,
-    "border_count": 191
+    "iterations": 669,
+    "depth": 6,
+    "learning_rate": 0.025462043560325272,
+    "l2_leaf_reg": 0.11599480523466797,
+    "bagging_temperature": 0.014645747236254225,
+    "border_count": 91
   },
-  "best_cv_f1": 0.995127267965194
+  "best_cv_f1": 0.9926969403950839
 }
