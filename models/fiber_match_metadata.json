@@ -1,15 +1,18 @@
 {
-  "trained_at": "2026-04-23T20:21:45.152492",
+  "trained_at": "2026-04-25T16:36:23.450054",
   "notebook": "fiber_recommendation_model.ipynb",
   "task": "binary is_match classification (1=match, 0=no_match)",
   "target": "is_match",
   "fiber_match_threshold": 85.0,
   "feature_cols": [
     "pct_acrylic",
+    "pct_alpaca",
     "pct_bamboo",
     "pct_cashmere",
     "pct_cotton",
+    "pct_denim",
     "pct_elastane",
+    "pct_hemp",
     "pct_linen",
     "pct_lyocell",
     "pct_modal",
@@ -56,10 +59,13 @@
   ],
   "fiber_vocab": [
     "acrylic",
+    "alpaca",
     "bamboo",
     "cashmere",
     "cotton",
+    "denim",
     "elastane",
+    "hemp",
     "linen",
     "lyocell",
     "modal",
@@ -73,10 +79,13 @@
   ],
   "fibers_of_interest": [
     "acrylic",
+    "alpaca",
     "bamboo",
     "cashmere",
     "cotton",
+    "denim",
     "elastane",
+    "hemp",
     "linen",
     "lyocell",
     "modal",
@@ -1416,12 +1425,12 @@
     }
   ],
   "best_params": {
-    "iterations": 669,
-    "depth": 6,
-    "learning_rate": 0.025462043560325272,
-    "l2_leaf_reg": 0.11599480523466797,
-    "bagging_temperature": 0.014645747236254225,
-    "border_count": 91
+    "iterations": 646,
+    "depth": 9,
+    "learning_rate": 0.2835870226963108,
+    "l2_leaf_reg": 8.58394283388611,
+    "bagging_temperature": 0.42960354443440996,
+    "border_count": 155
   },
-  "best_cv_f1": 0.9926969403950839
+  "best_cv_f1": 0.9973695284637941
 }
