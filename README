@@ -1,1 +1,33 @@
-ml
+# WeaveForward-ML: Minimal Project Optimizations
+
+This repository applies **minimal, surgical fixes** to the original baseline to ensure:
+*   **Auditability**: Maintains the original structure for direct comparison.
+*   **Stability**: Fixes critical Spark and scraping failures.
+*   **Refinement**: Improves data quality without over-engineering.
+
+### 1. webscraper_extraction.ipynb (vs _original)
+
+| Section | Type | Modification Type | Technical Change Description |
+| :--- | :--- | :--- | :--- |
+| **1-A** | Code | **Variable Update** | Added `MAX_PRODUCTS_PER_COLLECTION`. Reduced `SCRAPE_DELAY` to 0. Simplified the `HEADERS` dictionary. |
+| **1-A** | Code | **Data Overhaul** | Expanded brand lists (27 PH / 34 Multi). Introduced `#api` suffix logic in URLs to trigger Shopify extraction. |
+| **1-B-1** | Code | **Filtering** | `FIBER_RE`: Removed niche fibers (`polyamide`, `fleece`, etc.). `CLOTHING_TYPE_MAP`: Added `denim` mapping. |
+| **1-B-1** | Code | **Algorithmic Rewrite** | Implemented Title-priority logic with regex word boundaries. Switched from simple `in` checks to `re.search`. |
+| **1-B-1** | Code | **Logic Upgrade** | Added "Smart-Break" for repeated text. Replaced scaling/rounding logic with an "all-or-nothing" exact 100% check. |
+| **1-B-2** | Code | **Optimization** | Updated link keywords. Simplified title extraction to H1-only. Hardcoded `10s` timeout for reliability. |
+| **1-B-3** | Code | **NEW FUNCTION** | **Added `scrape_api`**: A pagination-aware JSON extraction engine for Shopify stores. |
+| **1-B-4** | Code | **Architecture** | Added `#` parsing to differentiate between `api` and `b4s` extraction paths. Integrated the new API engine. |
+| **1-D** | Code | **Bug Fix** | Removed `.values` from the `new_mask` filter in Section 1-D to fix a numpy-boolean indexing error. |
+
+### 2. fiber_recommendation_model.ipynb (vs _original)
+
+| Section | Change Category | Technical Description of Modification |
+| :--- | :--- | :--- |
+| **1-B** | **Fiber Vocab** | Removed `acetate` from the `BIO_FIBERS` frozen set. |
+| **4-B** | **Data Generation** | Switched `donation_id` from UUID strings to integer counters; added `item_id` and `donation_item_id` (surrogate PK); removed `product_name`. |
+| **4-C-2** | **Spark Ingestion** | Implemented a manual record cleaner (`clean_val`) and explicit `StructType` schema for Spark DataFrame creation to prevent serialization errors. |
+| **4-D** | **Spark SQL** | Included `donation_item_id` and `item_id` in the transformation pipeline. |
+| **5-A-pre** | **Fiber Filtering** | Simplified `_FIBERS_OF_INTEREST` to include all lookup fibers regardless of presence in the current KPI subset. |
+| **5-A-2** | **Artisan Registry** | Massively expanded the synthetic registry from 6 to 109 artisans, distributing them across all NCR cities with refined thresholds. |
+| **5-C** | **Feature Engineering** | Removed `artisan_id` and `demand_index` from the model features to eliminate identity bias and reduce noise. |
+| **7-B** | **Model Tuning** | Constrained the Optuna search space for hyperparameters and reduced trials to 1 for testing only. |
