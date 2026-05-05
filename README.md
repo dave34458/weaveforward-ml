@@ -16,10 +16,10 @@
 | Section | Feature | Original Logic | Optimized Change | Rationale |
 | :--- | :--- | :--- | :--- | :--- |
 | **1-A-pre** | Constants | Standard headers/delays | Reduced `TIMEOUT` (2s), `DELAY` (0s) | Increase throughput for large crawls |
-| **1-A** | Brand Catalog | ~25 static list | 61 brands + `#api` routing | Scale extraction & Shopify API support |
+| **1-A** | Brand Catalog | ~25 brand static list | 61 brands + `#api` routing | Scale extraction & Shopify API support |
 | **1-B-pre** | Regex | Broad fiber patterns | Narrowed `FIBER_RE` & denim mapping | Focus on core high-value bio-fibers |
 | **1-B-1** | Categorize | Basic `in` checks | Regex `\b` + Title-priority | Eliminate "Dress/Polo" noise |
-| **1-B-1** | Parser | Rounding/scaling | 100% "Strict Truth" + Smart-Break | Prevent duplicates in repeated text |
+| **1-B-1** | Parser | Rounding/scaling logic | 100% "Strict Truth" + Smart-Break | Prevent duplicates in repeated text |
 | **1-B-2** | Scrape Pg | Sniff detailed links | H1-only title + 10s hard timeout | Ensure data purity and link reliability |
 | **1-B-3** | **NEW** | N/A | **Added `scrape_api`** JSON engine | High-speed, robust paginated extraction |
 | **1-B-4** | Run Loop | Single-path crawler | Dual-engine routing (`api`/`b4s`) | Integrated Shopify-specific API support |
