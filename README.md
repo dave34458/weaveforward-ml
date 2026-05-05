@@ -1,4 +1,4 @@
-# 🧶 WeaveForward-ML: Minimal Repository Optimizations
+# 🧶 WeaveForward-ML: Minimal Project Optimizations
 
 <p align="center">
   <img src="https://img.shields.io/badge/Python-3.9+-blue.svg" alt="Python Version">
